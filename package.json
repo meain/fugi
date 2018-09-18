@@ -1,0 +1,14 @@
+{
+  "name": "fucksgiven",
+  "version": "0.0.1",
+  "description": "Just a simple page to redirect my friends to",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "Parcel build index.html"
+  },
+  "author": "Abin Simon <abinsimon10@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.9.7"
+  }
+}
