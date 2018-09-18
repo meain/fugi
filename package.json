@@ -4,11 +4,14 @@
   "description": "Just a simple page to redirect my friends to",
   "scripts": {
     "start": "parcel index.html",
-    "build": "Parcel build index.html"
+    "build": "parcel build index.html && sed -i '' 's:\"/:\":g' dist/index.html",
+    "deploy": "npm run build&&gh-pages -d dist"
   },
   "author": "Abin Simon <abinsimon10@gmail.com>",
   "license": "MIT",
+  "homepage": "https://meain.github.io/fugi",
   "devDependencies": {
+    "gh-pages": "^2.0.0",
     "parcel": "^1.9.7"
   }
 }
