@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monaco, monospace;
+    font-size: 3rem;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
